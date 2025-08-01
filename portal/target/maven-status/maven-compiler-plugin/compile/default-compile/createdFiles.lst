@@ -1,0 +1,15 @@
+com\backend\portal\config\UserNotFoundException.class
+com\backend\portal\PortalApplication.class
+com\backend\portal\config\OpenAPIConfig.class
+com\backend\portal\service\InputValidatorService.class
+com\backend\portal\config\WebConfig$1.class
+com\backend\portal\adater\UserApiAdapter.class
+com\backend\portal\aop\LoggingAspect.class
+com\backend\portal\config\WebConfig.class
+com\backend\portal\adater\model\UserDto.class
+com\backend\portal\controller\UserController.class
+com\backend\portal\service\FetchUserService.class
+com\backend\portal\dao\User.class
+com\backend\portal\adater\model\UserApiResponse.class
+com\backend\portal\dao\UserRepository.class
+com\backend\portal\config\GlobalExceptionHandler.class
