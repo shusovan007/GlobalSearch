@@ -1,29 +1,12 @@
-## ⚙️ Backend Setup (Spring Boot)
-Unzip file project-docker
+# React + Vite
 
-```bash
-cd portal
-docker build -t user-api .
-docker run -p 8080:8080 user-api
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-## ⚙️ Frontend Setup (React+vite+tailwnd)
-Unzip file project-docker
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-```bash
-cd user-view
-docker build -t user-ui .
-docker run -p 5173:80 user-ui
+## Expanding the ESLint configuration
 
-
-
-
-SWAGGER_UI -   http://{Domain}/swagger-ui
-
-
-to run in local 
-
-Unzip file project-docker
-
-BE- open in any ide -> mvn clean intall ->run application
-BE- open in any ide  -> npm i ->run application
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
